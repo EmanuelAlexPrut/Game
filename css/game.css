@@ -1,0 +1,67 @@
+.background {
+    background: rgb(58, 1, 1);
+    background-repeat: no repeat;
+    background-size: cover;
+    table-layout: fixed;
+    border-spacing: 0;
+    background-image: url(none);
+}
+
+.background td {
+    padding: 0;
+}
+
+.lava {
+    background: rgb(223, 74, 29);
+    background-image: url("https://i.pinimg.com/originals/26/29/c4/2629c42425dba7b4ce5b7ebe326f9f83.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.wall {
+    background: white;
+    background-image: url("https://i.pinimg.com/originals/ac/28/20/ac28201f5c9c4680110ec647d4cedc4d.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.actor {
+    position: absolute;
+}
+
+.coin {
+    background-image: url("https://static.wixstatic.com/media/740a39_4d0bcb0ae76a4d908a491cc45d742973~mv2.gif");
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    min-width: 100;
+}
+
+.player {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a8c985c1-c2ab-4e7d-b4ca-e4509c98a8cb/d9vbtyq-4793e491-8782-4059-ab2f-0163e52e79de.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYThjOTg1YzEtYzJhYi00ZTdkLWI0Y2EtZTQ1MDljOThhOGNiXC9kOXZidHlxLTQ3OTNlNDkxLTg3ODItNDA1OS1hYjJmLTAxNjNlNTJlNzlkZS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.SahxxstAuG1yJlJ63QgxE9VwDhee24vs3lHgfV_2U80");
+    background-position: center;
+    background-size: cover;
+}
+
+.game {
+    overflow: hidden;
+    max-width: 80%;
+    max-height: 900px;
+    position: relative;
+}
+
+.lost .player {
+    background: rgb(160, 64, 64);
+}
+
+.won .player {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
